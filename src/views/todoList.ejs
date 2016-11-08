@@ -10,9 +10,9 @@
 
                 <div class="container">
                     <div class="row">
-                        <% if(!isLogged){ %>
-                            <%- include('auth/signInAndUp.ejs') %>
-                                <% } %>
+                        <%- include('todos/createButton.ejs') %>
+                            <%- include('todos/create.ejs') %>
+                                <%- include('todos/todoList.ejs') %>
                     </div>
                 </div>
                 <hr>

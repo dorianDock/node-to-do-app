@@ -1,30 +1,32 @@
 <div class="col-md-12">
-    <div class="panel">
-        <div class="panel-body">
-            <!--/stories-->
-            <div class="row">
-                <br>
-                <div class="col-md-2">
-                    Sign In
-                    <form name="signInForm" action="/auth/signIn" method="post">
-                        <input name="username" id="username">
-                        <input name="password" id="password">
-                        <input type="submit" value="Sign In Bitch">
-                    </form>
+    <div class="row">
+        <br>
+        <div class="col-md-6">
+            <form name="signInForm" action="/auth/signIn" method="post">
+                <div class="form-group">
+                    <input name="username" class="form-control" id="username" placeholder="Your Login">
                 </div>
-                <div class="col-md-10">
-                    Sign Up
-                    <form name="signUpForm" action="/auth/signUp" method="post">
-                        <input name="username" id="username">
-                        <input name="password" id="password">
-                        <input type="submit" value="Sign Up">
-                    </form>
+                <div class="form-group">
+                    <input type="password" class="form-control" name="password" id="password" placeholder="Password">
                 </div>
-            </div>
-            <hr>
-            <!--/stories-->
-            <a href="/" class="btn btn-primary pull-right btnNext">More <i class="glyphicon glyphicon-chevron-right"></i></a>
+                <input class="btn btn-default" type="submit" value="Sign Me In">
+            </form>
+        </div>
+        <div class="col-md-6">
+            <form name="signInForm" action="/auth/signUp" method="post">
+                <div class="form-group">
+                    <input name="username" class="form-control" id="username" placeholder="Your Login">
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" name="password" id="password" placeholder="Password">
+                </div>
+                <input class="btn btn-default" type="submit" value="Sign Me Up">
+            </form>
         </div>
     </div>
+    <hr>
+    <!--/stories-->
+    <a href="/" class="btn btn-primary pull-right btnNext">More <i class="glyphicon glyphicon-chevron-right"></i></a>
+
 </div>
 <!--/col-12-->

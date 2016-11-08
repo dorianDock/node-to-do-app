@@ -10,9 +10,10 @@
 
                 <div class="container">
                     <div class="row">
-                        <% if(!isLogged){ %>
-                            <%- include('auth/signInAndUp.ejs') %>
-                                <% } %>
+                        <p>Hello Dear
+                            <%= user.username %>, for the moment, I know your password... (It is "
+                                <%= user.password %>" but shhh...)
+                        </p>
                     </div>
                 </div>
                 <hr>

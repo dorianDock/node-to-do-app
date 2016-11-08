@@ -1,23 +1,23 @@
 {
-  "name": "mylibrary",
-  "description": "",
-  "main": "app.js",
-  "authors": [
-    "Dorian <gaillotdorian@gmail.com>"
-  ],
-  "license": "ISC",
-  "homepage": "",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
-  "dependencies": {
-    "bootstrap": "^3.3.7",
-    "font-awesome": "^4.6.3"
-  },
+    "name": "mylibrary",
+    "description": "",
+    "main": "app.js",
+    "authors": [
+        "Dorian <gaillotdorian@gmail.com>"
+    ],
+    "license": "ISC",
+    "homepage": "",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "bootstrap": "^3.3.7",
+        "font-awesome": "^4.6.3"
+    },
     "overrides": {
         "bootstrap": {
             "main": [
